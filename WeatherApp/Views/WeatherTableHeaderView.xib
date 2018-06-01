@@ -25,13 +25,32 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYo-Fe-Yo3">
+                    <rect key="frame" x="411" y="13" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="DZd-Cs-gfg"/>
+                        <constraint firstAttribute="height" constant="25" id="Hyh-vA-Yih"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="icon-refresh"/>
+                    <connections>
+                        <action selector="refreshBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="CE7-eV-nxJ"/>
+                    </connections>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstItem="3PV-1g-9UO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="21U-gu-vlw"/>
+                <constraint firstItem="fYo-Fe-Yo3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="23h-o7-1Ge"/>
                 <constraint firstItem="3PV-1g-9UO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="3hB-bK-Ave"/>
+                <constraint firstAttribute="trailing" secondItem="fYo-Fe-Yo3" secondAttribute="trailing" constant="20" id="J7H-ha-kwt"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="refreshBtn" destination="fYo-Fe-Yo3" id="xPy-RQ-5mf"/>
+            </connections>
             <point key="canvasLocation" x="-606" y="-104"/>
         </view>
     </objects>
+    <resources>
+        <image name="icon-refresh" width="64" height="64"/>
+    </resources>
 </document>

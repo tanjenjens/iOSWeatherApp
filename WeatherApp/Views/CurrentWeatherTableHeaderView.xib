@@ -26,10 +26,10 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7V-Yt-brd">
-                    <rect key="frame" x="406" y="10" width="30" height="30"/>
+                    <rect key="frame" x="411" y="13" width="25" height="25"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="aqZ-Pe-kba"/>
-                        <constraint firstAttribute="width" constant="30" id="kyQ-ec-A8Q"/>
+                        <constraint firstAttribute="height" constant="25" id="aqZ-Pe-kba"/>
+                        <constraint firstAttribute="width" constant="25" id="kyQ-ec-A8Q"/>
                     </constraints>
                     <state key="normal" title="Button" image="icon-refresh"/>
                     <connections>
@@ -40,7 +40,7 @@
             <constraints>
                 <constraint firstItem="3PV-1g-9UO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="21U-gu-vlw"/>
                 <constraint firstItem="3PV-1g-9UO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="3hB-bK-Ave"/>
-                <constraint firstItem="x7V-Yt-brd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="f2k-FW-hdS"/>
+                <constraint firstItem="x7V-Yt-brd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="f2k-FW-hdS"/>
                 <constraint firstAttribute="trailing" secondItem="x7V-Yt-brd" secondAttribute="trailing" constant="20" id="fTh-Pk-NXM"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

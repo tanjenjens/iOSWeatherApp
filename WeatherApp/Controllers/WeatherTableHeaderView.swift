@@ -8,10 +8,20 @@
 
 import UIKit
 
+@objc protocol WeatherTableHeaderViewDelegate {
+    func refreshMajorCities()
+}
+
 class WeatherTableHeaderView: UIView {
 
+    var delegate: WeatherTableHeaderViewDelegate?
+    @IBOutlet weak var refreshBtn: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
+    @IBAction func refreshBtnAction(_ sender: Any) {
+        delegate?.refreshMajorCities()
+    }
 }

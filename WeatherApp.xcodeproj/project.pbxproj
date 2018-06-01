@@ -126,9 +126,9 @@
 			children = (
 				B466128E20C1537600EB5B2B /* LaunchScreen.storyboard */,
 				B466128F20C1537600EB5B2B /* Main.storyboard */,
-				B466128320C150EA00EB5B2B /* CurrentWeatherTableHeaderView.xib */,
-				B466128220C150EA00EB5B2B /* WeatherTableHeaderView.xib */,
 				B466128120C150EA00EB5B2B /* WeatherTableViewCell.xib */,
+				B466128220C150EA00EB5B2B /* WeatherTableHeaderView.xib */,
+				B466128320C150EA00EB5B2B /* CurrentWeatherTableHeaderView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,11 +136,11 @@
 		B453959120C06E1400276964 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B466127620C1506800EB5B2B /* CurrentWeatherTableHeaderView.swift */,
-				B466127920C1506800EB5B2B /* WeatherDetailViewController.swift */,
-				B466127520C1506800EB5B2B /* WeatherTableHeaderView.swift */,
-				B466127820C1506800EB5B2B /* WeatherTableViewCell.swift */,
 				B466127A20C1506800EB5B2B /* WeatherTableViewController.swift */,
+				B466127920C1506800EB5B2B /* WeatherDetailViewController.swift */,
+				B466127820C1506800EB5B2B /* WeatherTableViewCell.swift */,
+				B466127620C1506800EB5B2B /* CurrentWeatherTableHeaderView.swift */,
+				B466127520C1506800EB5B2B /* WeatherTableHeaderView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,8 +166,8 @@
 		B466128920C1528800EB5B2B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				B466128C20C1530B00EB5B2B /* Extensions.swift */,
 				B466128A20C152B500EB5B2B /* Constants.swift */,
+				B466128C20C1530B00EB5B2B /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
